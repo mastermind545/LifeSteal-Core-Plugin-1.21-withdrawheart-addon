@@ -1,0 +1,10 @@
+name: lifestealwithdraw
+version: '1.0-SNAPSHOT'
+main: org.lobby.lifestealwithdraw.LifestealWithdrawPlugin
+api-version: '1.21'
+authors: [ Swagger545 ]
+depend: [PlaceholderAPI]
+commands:
+  withdraw:
+    description: Withdraw hearts
+    usage: /<command> <amount>
